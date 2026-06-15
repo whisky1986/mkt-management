@@ -26,7 +26,8 @@ git commit -m "report: KDT 모객현황 데일리 리포트 $today"
 Write-Host "[3/3] GitHub 푸시 중..." -ForegroundColor Cyan
 git push
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "완료 — github.com/whisky1986/mkt-management/tree/main/kdt-daily-report/reports" -ForegroundColor Green
+    $origin = (git remote get-url origin)
+    Write-Host "완료 — $origin (kdt-daily-report/reports)" -ForegroundColor Green
 } else {
     Write-Host "푸시 실패 — git 인증을 확인하세요." -ForegroundColor Red; exit 1
 }
