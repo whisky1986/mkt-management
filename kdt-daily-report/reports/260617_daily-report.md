@@ -1,69 +1,87 @@
 ---
-title: KDT 모객현황 데일리 리포트 260616
-date: 2026-06-16
+title: KDT 모객현황 데일리 리포트 260617
+date: 2026-06-17
 type: daily-report
 tags: [kdt, 모객, daily-report]
 source: kdt 모객현황 데이터 추출.ipynb
 status: TEST
 ---
 
-# 📊 KDT 모객현황 데일리 리포트 · 2026-06-16
+# 📊 KDT 모객현황 데일리 리포트 · 2026-06-17
 
-> [!info] 대상 캠프 2종 · 내부직원·테스트 제외 · **TEST 출력본**
-> 인터랙티브 대시보드(탭·차트·박스플롯)는 아래 HTML에서 확인하세요.
+> [!info] 대상 캠프 3종 · 내부직원·테스트 제외 · **TEST 출력본**
 
 ## 🔗 리포트 열기 (인터랙티브)
 
-[▶ 260616_daily-report.html 브라우저로 열기](260616_daily-report.html)
+[▶ 260617_daily-report.html 브라우저로 열기](260617_daily-report.html)
 
-<iframe src="260616_daily-report.html" width="100%" height="900" style="border:1px solid #2a2f3a;border-radius:10px;"></iframe>
+<iframe src="260617_daily-report.html" width="100%" height="900" style="border:1px solid #2a2f3a;border-radius:10px;"></iframe>
 
 > [!tip] iframe이 비어 보이면 옵시디언 설정 또는 보안정책 때문일 수 있습니다. 위 링크로 직접 열면 항상 동작합니다.
 
 ## 📈 핵심 요약
 
-| 캠프 | 목표완료 | 지원시작 | 지원중 | 지원완료 | 완료달성율<br>(완료/시작) | 목표달성율<br>(완료/목표) | 내배카 보유율 |
+| 캠프 | 목표모객 | 수강정원 | 지원시작 | 지원중 | 지원완료 | 완료달성율<br>(완료/시작) | 목표달성율<br>(완료/목표) | 경쟁률<br>(지원/정원) | 내배카 보유율 |
+|---|---|---|---|---|---|---|---|---|---|
+| AI+ NLP 5기 | 96 | 40 | 383 | 273 | 105 | 27.4% | 109.4% | 9.6:1 | 45.5% |
+| 백엔드 자바 26기 | 72 | 24 | 174 | 119 | 50 | 28.7% | 69.4% | 7.2:1 | 55.4% |
+| 그로스 마케팅 6기 | 142 | 57 | 38 | 23 | 14 | 36.8% | 9.9% | 0.7:1 | 65.0% |
+
+- **총 지원시작** 595 · **완료** 169 (평균 전환 28.4%) · **미완료 적체** 415 (70%)
+- **내배카 보유율** 49.4% (유효응답 314명)
+
+## 📅 모집 마감 전망 (트렌드 × 종결일)
+
+| 캠프 | 모집기간 | 마감 | 경과 | 완료/목표 | 페이스(명/일) | 예상도달(목표대비) | 전망 |
 |---|---|---|---|---|---|---|---|
-| AI+ NLP 5기 | 120 | 369 | 261 | 103 | 27.9% | 85.8% | 46.0% |
-| 백엔드 자바 26기 | 105 | 167 | 114 | 48 | 28.7% | 45.7% | 56.2% |
+| AI+ NLP 5기 | 2026-05-18~2026-06-22 | D-5 | 86% | 105/96 | 4.71 | 129 (134%) | 목표 조기 달성 |
+| 백엔드 자바 26기 | 2026-05-27~2026-06-29 | D-12 | 65% | 50/72 | 1.71 | 71 (99%) | 목표 근접·미달 위험 |
+| 그로스 마케팅 6기 | 2026-06-16~2026-07-19 | D-32 | 6% | 14/142 | 7.0 | 238 (168%) ⚠️초기 | 마감 내 목표 달성 전망 |
 
-- **총 지원시작** 536 · **완료** 151 (평균 전환 28.2%) · **미완료 적체** 375 (70%)
-- **내배카 보유율** 48.9% (유효응답 282명)
+- **AI+ NLP 5기**: 목표 모객(96명) 초과 달성 · 마감 D-5 — 선발·등록 전환·정원 적합도로 전환.
+- **백엔드 자바 26기**: 최근 1.71명/일 → 마감 예상 71명(목표 72 대비 99%) → **목표 근접·미달 위험**.
+- **그로스 마케팅 6기**: 최근 7.0명/일 → 마감 예상 238명(목표 142 대비 168%) → **마감 내 목표 달성 전망** (모집 7일 미만, 신뢰도 낮음).
 
-## 📊 전일 대비 경향성 · 직전 260615 대비 (비판적 분석)
+## 📊 전일 대비 경향성 · 직전 260616 대비 (비판적 분석)
 
 | 캠프 | 지원시작 | 지원완료 | 완료전환율 | 내배카 | 목표달성율 | 심사진행(합/불/예비) |
 |---|---|---|---|---|---|---|
-| AI+ NLP 5기 | ▲17 | ▲6 | ▲0.3pp | ▲0.5pp | ▲5.0pp | 합+0 불+10 예-1 |
-| 백엔드 자바 26기 | ▲10 | ▲2 | ▼0.6pp | ▲2.7pp | ▲1.9pp | 합+2 불+4 예+0 |
+| AI+ NLP 5기 | ▲14 | ▲2 | ▼0.5pp | ▼0.5pp | ▲2.1pp | 합+3 불+9 예-10 |
+| 백엔드 자바 26기 | ▲7 | ▲2 | ±0pp | ▼0.8pp | ▲2.7pp | 합+1 불+1 예+0 |
 
 *Δ = 오늘 − 직전 리포트 · 1일 변동이라 노이즈 가능성 유의*
 
 **AI+ NLP 5기**
 
-1. 지원 +17명 · 전환율 +0.3pp 동반 — 양·질 함께 개선. 단, 1일 변동이라 추세 확정 전 2~3일 더 관찰 필요.
-2. 심사 진행 9건(합격 +0·불합격 +10·예비 -1) vs 지원완료 +6 — 완료수 증가가 '신규 완료'인지 '심사 결과 반영'인지 구분해야 전환율 해석이 정확.
-3. 목표 달성율 80.8→85.8% (+5.0pp) — 오늘 +6명 페이스면 잔여 17명에 약 3일. 잔여 모집기간과 대조해 '달성 가능 페이스'인지 판단.
+1. 신규 지원 +14명인데 완료전환율 -0.5pp 하락 — 유입은 늘었으나 완료로 이어지지 않음. '숫자 증가'에 안심 말고 유입 채널 품질·지원서 이탈 지점을 의심해야 함.
+2. 심사 진행 2건(합격 +3·불합격 +9·예비 -10) vs 지원완료 +2 — 완료수 증가가 '신규 완료'인지 '심사 결과 반영'인지 구분해야 전환율 해석이 정확.
+3. 목표 도달 유지(달성율 109.4%) — 점검 축을 완료 수 → 등록 전환·적합도로 이동.
 
 **백엔드 자바 26기**
 
-1. 신규 지원 +10명인데 완료전환율 -0.6pp 하락 — 유입은 늘었으나 완료로 이어지지 않음. '숫자 증가'에 안심 말고 유입 채널 품질·지원서 이탈 지점을 의심해야 함.
-2. 심사 진행 6건(합격 +2·불합격 +4·예비 +0) vs 지원완료 +2 — 완료수 증가가 '신규 완료'인지 '심사 결과 반영'인지 구분해야 전환율 해석이 정확.
-3. 목표 달성율 43.8→45.7% (+1.9pp) — 오늘 +2명 페이스면 잔여 57명에 약 28일. 잔여 모집기간과 대조해 '달성 가능 페이스'인지 판단.
+1. 지원 +7명 · 전환율 +0.0pp 동반 — 양·질 함께 개선. 단, 1일 변동이라 추세 확정 전 2~3일 더 관찰 필요.
+2. 심사 진행 2건(합격 +1·불합격 +1·예비 +0) vs 지원완료 +2 — 완료수 증가가 '신규 완료'인지 '심사 결과 반영'인지 구분해야 전환율 해석이 정확.
+3. 목표 달성율 66.7→69.4% (+2.7pp) — 오늘 +2명 페이스면 잔여 22명에 약 11일. 잔여 모집기간과 대조해 '달성 가능 페이스'인지 판단.
 
 ## 🧐 부트캠프별 점검 코멘트 (비판적 점검 포인트)
 
-**AI+ NLP 5기** (목표 120 · 달성율 85.8%)
+**AI+ NLP 5기** (목표 96 · 달성율 109.4%)
 
-1. 목표 달성율 85.8%를 절대값으로 판단하지 말 것 — 최근 7일 일평균 완료 5.3명 기준, 잔여 17명은 단순 추세로 약 3일 소요. 모집 잔여기간 안에 도달 가능한지 run-rate로 점검해야 함.
-2. 완료전환 27.9% vs 미완료 71% — '지원시작' 분모에 유령·중복·단순열람이 섞였는지, 아니면 지원서 문항·자격요건이 이탈 병목인지 분해해야 실제 전환율이 드러남.
-3. 대학(원)생 내배카 보유율 31.0%(n=116) — 비용 민감 세그먼트. 이 그룹이 완료전환에서 더 이탈하는지 교차 점검하고 자비·국비 메시지 분기 검토.
+1. 목표 96명 도달(달성율 109.4%) — 점검 지표를 완료 '수'에서 질(적합도·등록 전환·미수료 리스크)로 전환할 시점.
+2. 완료전환 27.4% vs 미완료 71% — '지원시작' 분모에 유령·중복·단순열람이 섞였는지, 아니면 지원서 문항·자격요건이 이탈 병목인지 분해해야 실제 전환율이 드러남.
+3. 대학(원)생 내배카 보유율 30.3%(n=122) — 비용 민감 세그먼트. 이 그룹이 완료전환에서 더 이탈하는지 교차 점검하고 자비·국비 메시지 분기 검토.
 
-**백엔드 자바 26기** (목표 105 · 달성율 45.7%)
+**백엔드 자바 26기** (목표 72 · 달성율 69.4%)
 
-1. 목표 달성율 45.7%를 절대값으로 판단하지 말 것 — 최근 7일 일평균 완료 2.3명 기준, 잔여 57명은 단순 추세로 약 25일 소요. 모집 잔여기간 안에 도달 가능한지 run-rate로 점검해야 함.
+1. 목표 달성율 69.4%를 절대값으로 판단하지 말 것 — 최근 7일 일평균 완료 2.0명 기준 잔여 22명은 약 11일 소요. 마감 D-12로 빠듯 — 가속 필요.
 2. 완료전환 28.7% vs 미완료 68% — '지원시작' 분모에 유령·중복·단순열람이 섞였는지, 아니면 지원서 문항·자격요건이 이탈 병목인지 분해해야 실제 전환율이 드러남.
-3. 최근 3일 신규 지원 급감(일평균 8→4명) — 매체 예산 소진·타깃 피로 가능성. 채널별 잔여 예산·CPA를 우선 점검.
+3. 대학(원)생 내배카 보유율 29.4%(n=17) — 비용 민감 세그먼트. 이 그룹이 완료전환에서 더 이탈하는지 교차 점검하고 자비·국비 메시지 분기 검토.
+
+**그로스 마케팅 6기** (목표 142 · 달성율 9.9%)
+
+1. 목표 달성율 9.9%를 절대값으로 판단하지 말 것 — 최근 7일 일평균 완료 7.0명 기준 잔여 128명은 약 18일 소요. 마감 D-32 대비 여유.
+2. 완료전환 36.8% vs 미완료 61% — '지원시작' 분모에 유령·중복·단순열람이 섞였는지, 아니면 지원서 문항·자격요건이 이탈 병목인지 분해해야 실제 전환율이 드러남.
+3. 여성 70% 편중 — 유입 채널·크리에이티브가 특정 성별에 쏠렸는지, 의도된 타깃 설계인지 점검.
 
 ## 🧮 내일배움카드 교차분석 (melt · cast)
 
@@ -72,8 +90,8 @@ status: TEST
 | 연령대 | YES | NO | 합계 | YES 비율 |
 |---|---|---|---|---|
 | ~19 | 1 | 3 | 4 | 25.0% |
-| 20-24 | 31 | 77 | 108 | 28.7% |
-| 25-29 | 40 | 25 | 65 | 61.5% |
+| 20-24 | 33 | 82 | 115 | 28.7% |
+| 25-29 | 41 | 26 | 67 | 61.2% |
 | 30-34 | 16 | 4 | 20 | 80.0% |
 | 35-39 | 1 | 0 | 1 | 100.0% |
 | 40+ | 4 | 0 | 4 | 100.0% |
@@ -82,20 +100,20 @@ status: TEST
 
 | 신분 | YES | NO | 합계 | YES 비율 |
 |---|---|---|---|---|
-| 대학(원)생 | 36 | 80 | 116 | 31.0% |
-| 취업준비생 | 42 | 18 | 60 | 70.0% |
+| 대학(원)생 | 37 | 85 | 122 | 30.3% |
+| 취업준비생 | 44 | 18 | 62 | 71.0% |
 | 직장인/프리랜서 | 7 | 2 | 9 | 77.8% |
 | 기타 | 5 | 2 | 7 | 71.4% |
-| 알 수 없음 | 3 | 7 | 10 | 30.0% |
+| 알 수 없음 | 3 | 8 | 11 | 27.3% |
 
 **백엔드 자바 26기** — 연령대별 내배카 보유율
 
 | 연령대 | YES | NO | 합계 | YES 비율 |
 |---|---|---|---|---|
-| ~19 | 0 | 1 | 1 | 0.0% |
+| ~19 | 0 | 2 | 2 | 0.0% |
 | 20-24 | 12 | 9 | 21 | 57.1% |
-| 25-29 | 24 | 20 | 44 | 54.5% |
-| 30-34 | 7 | 2 | 9 | 77.8% |
+| 25-29 | 25 | 20 | 45 | 55.6% |
+| 30-34 | 7 | 3 | 10 | 70.0% |
 | 35-39 | 1 | 1 | 2 | 50.0% |
 | 40+ | 1 | 2 | 3 | 33.3% |
 
@@ -103,11 +121,28 @@ status: TEST
 
 | 신분 | YES | NO | 합계 | YES 비율 |
 |---|---|---|---|---|
-| 대학(원)생 | 5 | 11 | 16 | 31.2% |
-| 취업준비생 | 29 | 15 | 44 | 65.9% |
+| 대학(원)생 | 5 | 12 | 17 | 29.4% |
+| 취업준비생 | 31 | 15 | 46 | 67.4% |
 | 직장인/프리랜서 | 7 | 3 | 10 | 70.0% |
-| 기타 | 3 | 5 | 8 | 37.5% |
-| 알 수 없음 | 1 | 1 | 2 | 50.0% |
+| 기타 | 2 | 5 | 7 | 28.6% |
+| 알 수 없음 | 1 | 2 | 3 | 33.3% |
+
+**그로스 마케팅 6기** — 연령대별 내배카 보유율
+
+| 연령대 | YES | NO | 합계 | YES 비율 |
+|---|---|---|---|---|
+| 20-24 | 2 | 4 | 6 | 33.3% |
+| 25-29 | 7 | 3 | 10 | 70.0% |
+| 30-34 | 3 | 0 | 3 | 100.0% |
+| 35-39 | 1 | 0 | 1 | 100.0% |
+
+신분(상태1)별 내배카 보유율
+
+| 신분 | YES | NO | 합계 | YES 비율 |
+|---|---|---|---|---|
+| 대학(원)생 | 2 | 2 | 4 | 50.0% |
+| 취업준비생 | 10 | 5 | 15 | 66.7% |
+| 직장인/프리랜서 | 1 | 0 | 1 | 100.0% |
 
 ## 🧭 연령대별 합불상태 현황 (연령대 × 합불상태 · cast)
 
@@ -116,29 +151,40 @@ status: TEST
 | 연령대 | 검토전 | 대상아님 | 예비합격 | 합격 | 불합격 | 지원취소 | 합계 |
 |---|---|---|---|---|---|---|---|
 | ~19 | 0 | 4 | 1 | 0 | 0 | 1 | 6 |
-| 20-24 | 0 | 143 | 25 | 10 | 16 | 5 | 199 |
-| 25-29 | 1 | 79 | 13 | 5 | 16 | 3 | 117 |
-| 30-34 | 0 | 24 | 5 | 3 | 3 | 0 | 35 |
-| 35-39 | 0 | 2 | 0 | 0 | 1 | 0 | 3 |
+| 20-24 | 0 | 153 | 19 | 10 | 22 | 5 | 209 |
+| 25-29 | 1 | 80 | 10 | 7 | 18 | 3 | 119 |
+| 30-34 | 0 | 24 | 4 | 4 | 4 | 0 | 36 |
+| 35-39 | 0 | 3 | 0 | 0 | 1 | 0 | 4 |
 | 40+ | 0 | 5 | 0 | 1 | 3 | 1 | 10 |
 
 **백엔드 자바 26기** — 연령대별 합불상태 현황
 
 | 연령대 | 검토전 | 대상아님 | 예비합격 | 합격 | 불합격 | 지원취소 | 합계 |
 |---|---|---|---|---|---|---|---|
-| ~19 | 0 | 3 | 1 | 0 | 0 | 0 | 4 |
-| 20-24 | 1 | 49 | 0 | 6 | 1 | 2 | 59 |
-| 25-29 | 1 | 38 | 2 | 18 | 7 | 7 | 73 |
-| 30-34 | 2 | 15 | 0 | 3 | 0 | 0 | 20 |
+| ~19 | 0 | 4 | 1 | 0 | 0 | 0 | 5 |
+| 20-24 | 2 | 50 | 0 | 6 | 1 | 2 | 61 |
+| 25-29 | 0 | 40 | 2 | 19 | 7 | 7 | 75 |
+| 30-34 | 2 | 16 | 0 | 3 | 1 | 0 | 22 |
 | 35-39 | 0 | 3 | 0 | 2 | 1 | 0 | 6 |
 | 40+ | 1 | 6 | 1 | 0 | 1 | 0 | 9 |
+
+**그로스 마케팅 6기** — 연령대별 합불상태 현황
+
+| 연령대 | 검토전 | 대상아님 | 지원취소 | 합계 |
+|---|---|---|---|---|
+| 20-24 | 4 | 11 | 1 | 16 |
+| 25-29 | 8 | 6 | 0 | 14 |
+| 30-34 | 1 | 5 | 0 | 6 |
+| 35-39 | 1 | 0 | 0 | 1 |
+| 40+ | 0 | 1 | 0 | 1 |
 
 ## 🧩 만나이 분포 (지원중 유저)
 
 | 캠프 | 중앙값 | 평균 | Q1 | Q3 | min | max | n |
 |---|---|---|---|---|---|---|---|
-| AI+ NLP 5기 | 24.0 | 25.4 | 22.0 | 26.0 | 17.0 | 71.0 | 258 |
-| 백엔드 자바 26기 | 25.0 | 27.7 | 23.0 | 29.0 | 18.0 | 70.0 | 119 |
+| AI+ NLP 5기 | 24.0 | 25.3 | 22.0 | 26.0 | 17.0 | 71.0 | 270 |
+| 백엔드 자바 26기 | 25.0 | 27.6 | 23.0 | 29.0 | 18.0 | 70.0 | 124 |
+| 그로스 마케팅 6기 | 26.0 | 27.1 | 23.0 | 29.0 | 21.0 | 50.0 | 37 |
 
 > 일별 박스플롯(노트북 셀2 로직)은 HTML 캠프별 탭 참조.
 
@@ -158,7 +204,7 @@ KDT 모객현황 데일리 리포트 생성기
 환경변수: KDT_DATA_DIR 로 CSV 폴더 경로 override 가능
 """
 import pandas as pd, os, numpy as np, json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # CSV 데이터 소스 (로컬 전용 — GitHub에는 올라가지 않음). 환경변수로 override 가능.
 FOLDER = os.environ.get("KDT_DATA_DIR", r"C:\Users\manid\OneDrive\바탕 화면\data_study\kdt")
@@ -168,19 +214,44 @@ _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORTS_DIR = os.path.join(_SCRIPT_DIR, "reports")
 OBSIDIAN_DIR = r"C:\Users\manid\Documents\whisky\멋쟁이사자처럼\업무 노트\daily report"
 os.makedirs(REPORTS_DIR, exist_ok=True)
-OUT_DIRS = [REPORTS_DIR] + ([OBSIDIAN_DIR] if os.path.isdir(OBSIDIAN_DIR) else [])
+
+# 출력 모드 (환경변수 override): 기본은 reports/ + Obsidian 둘 다 HTML+MD
+#  KDT_OBSIDIAN_ONLY=1 → Obsidian 폴더에만 출력 (reports/·GitHub 미반영)
+#  KDT_MD_ONLY=1        → MD만 출력 (HTML 생략, MD 내 iframe도 생략)
+OBSIDIAN_ONLY = os.environ.get("KDT_OBSIDIAN_ONLY") in ("1", "true", "True")
+MD_ONLY       = os.environ.get("KDT_MD_ONLY") in ("1", "true", "True")
+if OBSIDIAN_ONLY and os.path.isdir(OBSIDIAN_DIR):
+    OUT_DIRS = [OBSIDIAN_DIR]
+else:
+    OUT_DIRS = [REPORTS_DIR] + ([OBSIDIAN_DIR] if os.path.isdir(OBSIDIAN_DIR) else [])
 OUTDIR = REPORTS_DIR  # 하위 호환 (단일 참조용)
 
 # 부트캠프 표시명 매핑 (파일 prefix -> 보기 좋은 이름)
 DISPLAY = {
     "kdt-aiplus": "AI+ NLP 5기",
     "kdt-backendj-26th": "백엔드 자바 26기",
+    "kdt-growth-6th": "그로스 마케팅 6기",
 }
 
-# 부트캠프별 목표 지원완료수 (표시명 기준)
+# 부트캠프별 목표 모객수(=목표 지원완료수) (표시명 기준)
 TARGETS = {
-    "AI+ NLP 5기": 120,
-    "백엔드 자바 26기": 105,
+    "AI+ NLP 5기": 96,
+    "백엔드 자바 26기": 72,
+    "그로스 마케팅 6기": 142,
+}
+
+# 부트캠프별 수강정원 (표시명 기준)
+CAPACITY = {
+    "AI+ NLP 5기": 40,
+    "백엔드 자바 26기": 24,
+    "그로스 마케팅 6기": 57,
+}
+
+# 부트캠프별 모객 기간 (시작, 마감) — YYYY-MM-DD
+PERIODS = {
+    "AI+ NLP 5기": ("2026-05-18", "2026-06-22"),
+    "백엔드 자바 26기": ("2026-05-27", "2026-06-29"),
+    "그로스 마케팅 6기": ("2026-06-16", "2026-07-19"),
 }
 
 def load(path):
@@ -283,10 +354,47 @@ def analyze(f):
         box_daily.append({'q1':round(float(np.percentile(v,25)),1),'median':round(float(np.median(v)),1),
                           'q3':round(float(np.percentile(v,75)),1),'min':float(min(v)),'max':float(max(v)),'n':len(v)})
 
-    # 목표 대비 달성율
+    # 목표 대비 달성율 + 수강정원 지표
     target = TARGETS.get(name)
+    capacity = CAPACITY.get(name)
     ach_vs_start = round(완료/시작*100,1) if 시작 else 0
     ach_vs_target = round(완료/target*100,1) if target else None
+    competition = round(시작/capacity,1) if capacity else None   # 경쟁률(지원시작/정원)
+    fill_vs_capacity = round(완료/capacity*100,1) if capacity else None  # 정원 대비 완료(%)
+
+    # === 모객 기간 기반 마감 도달 전망 (트렌드 × 종결일) ===
+    proj = None
+    period = PERIODS.get(name)
+    if period:
+        ps = datetime.strptime(period[0], '%Y-%m-%d').date()
+        pe = datetime.strptime(period[1], '%Y-%m-%d').date()
+        today_d = datetime.now().date()
+        days_total = (pe - ps).days + 1
+        days_elapsed = max(0, min((today_d - ps).days + 1, days_total))
+        days_left = max((pe - today_d).days, 0)
+        time_pct = round(days_elapsed/days_total*100) if days_total else 0
+        # 완료 페이스: 7일 이상이면 최근 7일(달력) 평균, 미만이면 경과 전체 평균
+        if days_elapsed >= 7:
+            recent = sum(comp_daily.get(str(today_d - timedelta(days=i)), 0) for i in range(7))
+            pace = round(recent/7, 2)
+        else:
+            pace = round(완료/days_elapsed, 2) if days_elapsed > 0 else 0
+        projected = int(round(완료 + days_left * pace))
+        proj_tpct = round(projected/target*100) if target else None
+        early = days_elapsed < 7
+        if target and 완료 >= target:
+            tier, label = 'done', '목표 조기 달성'
+        elif target and projected >= target:
+            tier, label = 'safe', '마감 내 목표 달성 전망'
+        elif target and projected >= target*0.9:
+            tier, label = 'tight', '목표 근접·미달 위험'
+        elif target:
+            tier, label = 'risk', '마감 내 목표 미달 전망'
+        else:
+            tier, label = 'na', '목표 미설정'
+        proj = {'start':period[0],'end':period[1],'days_total':days_total,'days_elapsed':days_elapsed,
+                'days_left':days_left,'time_pct':time_pct,'pace':pace,'projected':projected,
+                'proj_tpct':proj_tpct,'tier':tier,'label':label,'early':early}
 
     # === melt/cast 교차분석: 내배카 풀에 속성 join ===
     p = nbc_pool.copy()
@@ -327,6 +435,8 @@ def analyze(f):
         'age_by_day':age_by_day,'age_all':age_all,'box_daily':box_daily,
         'age_status':age_status,'status_present':status_present,
         'target':target,'ach_vs_start':ach_vs_start,'ach_vs_target':ach_vs_target,
+        'capacity':capacity,'competition':competition,'fill_vs_capacity':fill_vs_capacity,
+        'proj':proj,
     }
 
 camps = [analyze(f) for f in sorted(os.listdir(FOLDER)) if f.endswith('.csv')]
@@ -339,17 +449,19 @@ out_path = os.path.join(OUTDIR, f"{yymmdd}_daily-report.html")
 
 # ---------- 직전 리포트 로드 (전일 대비 경향성 분석용) ----------
 def load_prev_data(today_yymmdd):
-    """REPORTS_DIR에서 오늘 이전 날짜의 최신 리포트 HTML을 찾아 embedded DATA를 추출."""
-    cands = []
-    for fn in os.listdir(REPORTS_DIR):
-        m = _re.match(r'(\d{6})_daily-report\.html$', fn)
-        if m and m.group(1) < today_yymmdd:
-            cands.append(m.group(1))
-    if not cands:
+    """REPORTS_DIR + Obsidian 폴더에서 오늘 이전 날짜의 최신 리포트 HTML을 찾아 embedded DATA 추출."""
+    search_dirs = [d for d in (REPORTS_DIR, OBSIDIAN_DIR) if os.path.isdir(d)]
+    found = {}  # yymmdd -> path (최신 dir 우선)
+    for d in search_dirs:
+        for fn in os.listdir(d):
+            m = _re.match(r'(\d{6})_daily-report\.html$', fn)
+            if m and m.group(1) < today_yymmdd:
+                found.setdefault(m.group(1), os.path.join(d, fn))
+    if not found:
         return None, None
-    prev = max(cands)
+    prev = max(found)
     try:
-        html = open(os.path.join(REPORTS_DIR, f"{prev}_daily-report.html"), encoding='utf-8').read()
+        html = open(found[prev], encoding='utf-8').read()
         mm = _re.search(r'const DATA = (\{.*?\});\s*\nChart\.register', html, _re.S)
         if not mm:
             return prev, None
@@ -372,13 +484,15 @@ def build_trend(c):
     prev = prev_by_name.get(c['name'])
     if not prev:
         return None
+    # 목표가 바뀌었을 수 있으므로 직전 달성율은 '현재 목표' 기준으로 재계산(공정 비교)
+    prev_ach = round(prev.get('완료',0)/c['target']*100,1) if c['target'] else None
     d = {
         'start': c['시작'] - prev.get('시작', 0),
         'comp':  c['완료'] - prev.get('완료', 0),
         'ing':   c['지원중'] - prev.get('지원중', 0),
         'conv':  round(c['conv'] - prev.get('conv', 0), 1),
         'nbc':   round(c['nbc_rate'] - prev.get('nbc_rate', 0), 1),
-        'tgt':   round((c['ach_vs_target'] or 0) - (prev.get('ach_vs_target') or 0), 1),
+        'tgt':   round((c['ach_vs_target'] or 0) - (prev_ach or 0), 1),
     }
     st_now, st_prev = status_tot(c), status_tot(prev)
     d_pass = st_now.get('합격', 0) - st_prev.get('합격', 0)
@@ -403,7 +517,7 @@ def build_trend(c):
         rem = c['target'] - c['완료']
         if d['comp'] > 0 and rem > 0:
             eta = round(rem / d['comp'])
-            ins.append(f"<b>목표 달성율 {prev.get('ach_vs_target')}→{c['ach_vs_target']}% ({d['tgt']:+}pp)</b> — 오늘 +{d['comp']}명 페이스면 잔여 {rem}명에 약 {eta}일. 잔여 모집기간과 대조해 '달성 가능 페이스'인지 판단.")
+            ins.append(f"<b>목표 달성율 {prev_ach}→{c['ach_vs_target']}% ({d['tgt']:+}pp)</b> — 오늘 +{d['comp']}명 페이스면 잔여 {rem}명에 약 {eta}일. 잔여 모집기간과 대조해 '달성 가능 페이스'인지 판단.")
         elif rem <= 0:
             ins.append(f"목표 도달 유지(달성율 {c['ach_vs_target']}%) — 점검 축을 완료 수 → 등록 전환·적합도로 이동.")
     # ④ 세그먼트 이동 신호
@@ -492,15 +606,39 @@ names.forEach((n,i)=>{const b=document.createElement('div');b.className='tab'+(i
 function sel(i){document.querySelectorAll('.tab').forEach((t,j)=>t.classList.toggle('active',j===i));document.querySelectorAll('.panel').forEach((p,j)=>p.classList.toggle('active',j===i));}
 
 const charts=[];
-function mkLine(id,startO,compO){
+function mkLine(id,startO,compO,proj){
   const s=cum(startO),c=cum(compO);
-  const cData=s.k.map(d=>c.k.includes(d)?c.r[c.k.indexOf(d)]:null);
-  charts.push(new Chart(document.getElementById(id),{type:'line',data:{labels:s.k,datasets:[
-    {label:'누적 지원시작',data:s.r,borderColor:C.acc,backgroundColor:'transparent',tension:.25,pointRadius:2,pointBackgroundColor:C.acc,
-     datalabels:{display:true,align:'top',anchor:'end',color:C.acc,font:{weight:'bold',size:8},formatter:v=>v}},
-    {label:'누적 지원완료',data:cData,borderColor:C.blue,backgroundColor:'transparent',tension:.25,pointRadius:2,pointBackgroundColor:C.blue,spanGaps:true,
-     datalabels:{display:ctx=>ctx.dataValue!=null,align:'bottom',anchor:'start',color:C.blue,font:{weight:'bold',size:8},formatter:v=>v}}]},
-    options:baseOpt()}));
+  const labels=s.k.slice();
+  const startData=s.r.slice();
+  const compData=s.k.map(d=>c.k.includes(d)?c.r[c.k.indexOf(d)]:null);
+  let projData=labels.map(_=>null);
+  let showSet=new Set();
+  if(proj && proj.pace>0 && proj.end){
+    const lastComp = c.r.length? c.r[c.r.length-1] : 0;           // 현재 누적 완료
+    projData[projData.length-1]=lastComp;                          // 마지막 실측점에 앵커
+    let dt=new Date(labels[labels.length-1]+'T00:00:00');
+    const end=new Date(proj.end+'T00:00:00');
+    let acc=lastComp;
+    while(true){ dt.setDate(dt.getDate()+1); if(dt>end) break;
+      labels.push(dt.toISOString().slice(0,10)); startData.push(null); compData.push(null);
+      acc=acc+proj.pace; projData.push(Math.round(acc)); }
+    const fut=projData.map((v,i)=>v!=null?i:-1).filter(i=>i>=0).slice(1); // 앵커 제외 미래점
+    const step=Math.max(1,Math.ceil(fut.length/12));
+    fut.forEach((idx,k)=>{ if(k%step===0) showSet.add(idx); });
+    if(fut.length) showSet.add(fut[fut.length-1]);                  // 마감 예상치는 항상 표기
+  }
+  const ds=[
+    {label:'누적 지원시작',data:startData,borderColor:C.acc,backgroundColor:'transparent',tension:.25,pointRadius:2,pointBackgroundColor:C.acc,
+     datalabels:{display:ctx=>startData[ctx.dataIndex]!=null,align:'top',anchor:'end',color:C.acc,font:{weight:'bold',size:8},formatter:v=>v}},
+    {label:'누적 지원완료',data:compData,borderColor:C.blue,backgroundColor:'transparent',tension:.25,pointRadius:2,pointBackgroundColor:C.blue,spanGaps:true,
+     datalabels:{display:ctx=>compData[ctx.dataIndex]!=null,align:'bottom',anchor:'start',color:C.blue,font:{weight:'bold',size:8},formatter:v=>v}}
+  ];
+  if(showSet.size){
+    ds.push({label:'예상 완료(시뮬·점선)',data:projData,borderColor:C.green,borderDash:[6,4],backgroundColor:'transparent',tension:0,spanGaps:true,
+      pointRadius:ctx=>showSet.has(ctx.dataIndex)?2.5:0,pointBackgroundColor:C.green,
+      datalabels:{display:ctx=>showSet.has(ctx.dataIndex),align:'top',anchor:'end',color:C.green,font:{weight:'bold',size:8},formatter:v=>v}});
+  }
+  charts.push(new Chart(document.getElementById(id),{type:'line',data:{labels,datasets:ds},options:baseOpt()}));
 }
 function mkDailyBar(id,startO){
   const k=Object.keys(startO).sort();
@@ -621,6 +759,32 @@ else:
 <p style="font-size:12px;color:var(--sub);margin-top:8px">Δ = 오늘 − 직전 리포트. pp = 퍼센트포인트. ▲ 증가 / ▼ 감소. 1일 변동이므로 추세 확정 전 노이즈 가능성 유의.</p></div>
 {tcards}"""
 
+# 모집 마감 전망 (Summary 테이블)
+_TIER_PILL = {'done':'g','safe':'g','tight':'y','risk':'r','na':''}
+_TIER_PILLCSS = {'g':'pill g','y':'pill','r':'pill r'}
+def _proj_pill(tier, label):
+    p = _TIER_PILL.get(tier, '')
+    if p == 'g': return f"<span class='pill g'>{label}</span>"
+    if p == 'r': return f"<span class='pill r'>{label}</span>"
+    if p == 'y': return f"<span class='pill' style='background:rgba(255,212,59,.15);color:var(--yellow)'>{label}</span>"
+    return label
+_prows = ""
+for c in camps:
+    pj = c.get('proj')
+    if not pj:
+        _prows += f"<tr><td class='name'>{c['name']}</td><td colspan='8' style='color:var(--sub)'>모집기간 미설정</td></tr>"
+        continue
+    proj_disp = f"{pj['projected']} ({pj['proj_tpct']}%)" if pj.get('proj_tpct') is not None else f"{pj['projected']}"
+    early = " ⚠️초기" if pj['early'] else ""
+    _prows += (f"<tr><td class='name'>{c['name']}</td><td>{pj['start']}~{pj['end']}</td><td><b>D-{pj['days_left']}</b></td>"
+               f"<td>{pj['time_pct']}%</td><td>{c['완료']}/{c['target'] if c.get('target') else '—'}</td><td>{pj['pace']}</td><td>{proj_disp}{early}</td>"
+               f"<td>{_proj_pill(pj['tier'], pj['label'])}</td></tr>")
+proj_summary_html = f"""<h2>모집 마감 전망 (트렌드 × 종결일)</h2>
+<div class="card"><table>
+<thead><tr><th>캠프</th><th>모집기간</th><th>마감</th><th>경과</th><th>완료/목표</th><th>페이스<br>(명/일)</th><th>예상 도달<br>(목표대비)</th><th>전망</th></tr></thead>
+<tbody>{_prows}</tbody></table>
+<p style="font-size:12px;color:var(--sub);margin-top:8px">예상 도달 = 현재 완료 + 잔여일 × 최근 완료 페이스(7일↑은 최근 7일 평균, 미만은 경과 전체 평균). ⚠️초기 = 모집 7일 미만, 추정 신뢰도 낮음.</p></div>"""
+
 summary = f"""<div class="panel active" id="p0">
 <h2>전체 요약</h2>
 <div class="grid kpi-grid">
@@ -630,6 +794,7 @@ summary = f"""<div class="panel active" id="p0">
   <div class="card kpi"><div class="label">내배카 보유율</div><div class="val">{nbc_rate_all}%</div><div class="sub">유효응답 {fmt(tot_nbc_t)}명</div></div>
   <div class="card kpi"><div class="label">대상 캠프</div><div class="val">{len(camps)}</div><div class="sub">개</div></div>
 </div>
+{proj_summary_html}
 {trend_html}
 <h2>캠프별 퍼널 비교</h2>
 <div class="card"><table>
@@ -674,12 +839,20 @@ def build_comments(c):
     last7 = comp_sorted[-7:]
     avg_comp = round(sum(v for _,v in last7)/len(last7),1) if last7 else 0
     rem = (target-완료) if target else None
+    pj = c.get('proj')
+    dleft = pj['days_left'] if pj else None
     if rem is not None and rem>0:
         if avg_comp>0:
             eta = round(rem/avg_comp)
-            out.append(f"<b>목표 달성율 {avs}%를 절대값으로 판단하지 말 것</b> — 최근 7일 일평균 완료 {avg_comp}명 기준, 잔여 {rem}명은 단순 추세로 약 <b>{eta}일</b> 소요. 모집 잔여기간 안에 도달 가능한지 run-rate로 점검해야 함.")
+            verdict = ""
+            if dleft is not None:
+                verdict = (f" 마감 D-{dleft} 대비 <b>여유</b>." if eta <= dleft*0.7
+                           else (f" 마감 D-{dleft}로 <b>빠듯</b> — 가속 필요." if eta <= dleft
+                                 else f" 마감 D-{dleft} 내 <b>달성 불가 페이스</b> — 강한 가속/연장 검토."))
+            out.append(f"<b>목표 달성율 {avs}%를 절대값으로 판단하지 말 것</b> — 최근 7일 일평균 완료 {avg_comp}명 기준 잔여 {rem}명은 약 <b>{eta}일</b> 소요.{verdict}")
         else:
-            out.append(f"<b>최근 7일 완료 유입이 거의 정체</b>(일평균 {avg_comp}명) — 목표까지 {rem}명 남았으나 완료 모멘텀이 멈춤. 마감 리마인드·완료유도 트리거 시급.")
+            dtxt = f" 마감 D-{dleft}." if dleft is not None else ""
+            out.append(f"<b>최근 7일 완료 유입이 거의 정체</b>(일평균 {avg_comp}명) — 목표까지 {rem}명 남았으나 완료 모멘텀이 멈춤.{dtxt} 마감 리마인드·완료유도 트리거 시급.")
     elif rem is not None:
         out.append(f"목표 {target}명 도달(달성율 {avs}%) — 점검 지표를 완료 '수'에서 <b>질</b>(적합도·등록 전환·미수료 리스크)로 전환할 시점.")
     # ② 완료전환 병목 / 분모 신뢰성
@@ -724,16 +897,43 @@ for i,c in enumerate(camps):
         emoji,stxt,scls = '🔴','목표 미달 — 가속 필요','down'
     remtxt = (f"목표까지 <b>{rem}명</b> 남음" if (rem and rem>0) else "목표 달성") if t else ""
     insight_cls = 'alert' if (avs is not None and avs<50) else ('warn' if (avs is not None and avs<80) else '')
+    cap = c.get('capacity'); comp_ratio = c.get('competition')
+    cap_disp = f"{cap}명" if cap else '미설정'
+    cap_ctx = f" · 수강정원 {cap}명 · 경쟁률 {comp_ratio}:1(지원/정원)" if cap else ""
+    if t is not None:
+        t_disp, avs_disp = str(t), f"{avs}%"
+        body = f"목표 모객 <b>{t}명</b> 중 <b>{c['완료']}명</b> 달성 · 목표 달성율 <b>{avs}%</b> · {remtxt}. 지원완료 달성율(시작 대비) {avstart}%{cap_ctx}."
+    else:
+        t_disp, avs_disp = '미설정', '—'
+        body = f"<b>목표 미설정</b> 캠프 — 지원완료 <b>{c['완료']}명</b> · 지원완료 달성율(시작 대비) {avstart}%{cap_ctx}. 목표치 설정 시 달성율·페이스 분석이 추가됩니다."
+    # 모집 마감 전망 박스
+    pj = c.get('proj')
+    if pj:
+        pcls = {'risk':'alert','tight':'warn'}.get(pj['tier'], '')
+        icon = {'done':'🎉','safe':'✅','tight':'⚠️','risk':'🚨','na':'📅'}.get(pj['tier'], '📅')
+        if pj['tier'] == 'done':
+            diag = f"이미 목표 모객(<b>{t}명</b>) 초과 달성 — 마감까지 D-{pj['days_left']}. 잔여 기간은 선발·등록 전환·정원({cap or '-'}명) 적합도에 집중."
+        elif t:
+            diag = f"최근 완료 페이스 <b>{pj['pace']}명/일</b> → 마감({pj['end']}) 예상 누적 <b>{pj['projected']}명</b> (목표 {t} 대비 <b>{pj['proj_tpct']}%</b>) → <b>{pj['label']}</b>."
+        else:
+            diag = f"최근 완료 페이스 {pj['pace']}명/일. 목표 미설정으로 도달 전망은 생략."
+        early_note = " <i style='color:var(--sub)'>(모집 7일 미만 — 추정 신뢰도 낮음)</i>" if pj['early'] else ""
+        proj_html = (f'<div class="insight {pcls}" style="margin-top:12px"><span class="h">{icon} 모집 마감 전망 — '
+                     f"{pj['start']} ~ {pj['end']} · 마감 D-{pj['days_left']} (기간 {pj['days_total']}일 중 {pj['days_elapsed']}일 · {pj['time_pct']}% 경과)</span>\n{diag}{early_note}</div>")
+    else:
+        proj_html = ""
     panels += f"""<div class="panel" id="{pid}">
 <h2>현황 점검 (인사이트)</h2>
 <div class="insight {insight_cls}"><span class="h">{emoji} {c['name']} — {stxt}</span>
-목표 지원완료 <b>{t}명</b> 중 <b>{c['완료']}명</b> 달성 · 목표 달성율 <b>{avs}%</b> · {remtxt}. 지원완료 달성율(시작 대비) {avstart}% — 시작 {c['시작']}명 중 {c['완료']}명 완료.</div>
+{body}</div>
 <div class="grid kpi-grid">
-  <div class="card kpi"><div class="label">목표 지원완료수</div><div class="val">{t}</div><div class="sub">설정 목표</div></div>
-  <div class="card kpi"><div class="label">지원완료수</div><div class="val acc">{c['완료']}</div><div class="sub">현재</div></div>
-  <div class="card kpi"><div class="label">지원완료 달성율</div><div class="val">{avstart}%</div><div class="sub">= 완료/시작</div></div>
-  <div class="card kpi"><div class="label">목표 달성율</div><div class="val {scls}">{avs}%</div><div class="sub">= 완료/목표</div></div>
+  <div class="card kpi"><div class="label">목표 모객수</div><div class="val">{t_disp}</div><div class="sub">목표 지원완료</div></div>
+  <div class="card kpi"><div class="label">수강정원</div><div class="val">{cap_disp}</div><div class="sub">최종 정원</div></div>
+  <div class="card kpi"><div class="label">지원완료수</div><div class="val acc">{c['완료']}</div><div class="sub">현재 모객</div></div>
+  <div class="card kpi"><div class="label">목표 달성율</div><div class="val {scls}">{avs_disp}</div><div class="sub">= 완료/목표</div></div>
+  <div class="card kpi"><div class="label">경쟁률</div><div class="val">{(str(comp_ratio)+':1') if comp_ratio else '—'}</div><div class="sub">지원시작/정원</div></div>
 </div>
+{proj_html}
 <div class="card comment-card" style="margin-top:14px"><h3>🧐 점검 코멘트 (비판적 점검 포인트)</h3>
 <ul class="comments">
 {''.join(f'<li>{x}</li>' for x in build_comments(c))}
@@ -748,7 +948,7 @@ for i,c in enumerate(camps):
 </div>
 <h2>일별 추이</h2>
 <div class="card"><h3>일별 신규 지원시작 (명)</h3><canvas id="{pid}_daily" style="max-height:240px"></canvas></div>
-<div class="card" style="margin-top:14px"><h3>누적 지원시작 vs 완료 (일자별 수치 표기)</h3><canvas id="{pid}_cum"></canvas></div>
+<div class="card" style="margin-top:14px"><h3>누적 지원시작 vs 완료 (일자별 수치) + <span style="color:var(--green)">예상 완료 시뮬레이션(점선)</span> — 마감일까지 최근 페이스 외삽</h3><canvas id="{pid}_cum" style="max-height:340px"></canvas></div>
 <h2>지원자 프로필</h2>
 <div class="card"><h3>연령대 분포 (지원중, 만나이) — 중앙값 {c['age'].get('median','-')}세 · 평균 {c['age'].get('mean','-')} · Q1~Q3 {c['age'].get('q1','-')}~{c['age'].get('q3','-')} · 범위 {c['age'].get('min','-')}~{c['age'].get('max','-')}</h3>
 """
@@ -804,7 +1004,7 @@ mkBoxCompare('sum_box');
 // per-camp
 DATA.camps.forEach((c,i)=>{const p='p'+(i+1);
   mkDailyBar(p+'_daily',c.daily);
-  mkLine(p+'_cum',c.daily,c.comp_daily);
+  mkLine(p+'_cum',c.daily,c.comp_daily,c.proj);
   mkBoxDaily(p+'_box',c.age_by_day,c.age.median,c.box_daily);
   mkAgeStatus(p+'_agestatus',c.age_status,c.status_present);
   mkNbcCross(p+'_age',c.by_age);
@@ -825,9 +1025,15 @@ HTML = (HTML.replace("__YYMMDD__",yymmdd).replace("__DATE__",datetime.now().strf
 html_name = f"{yymmdd}_daily-report.html"
 date_str = datetime.now().strftime('%Y-%m-%d')
 
+# 목표 미설정 캠프 표시용 헬퍼
+def tgt_str(c): return str(c['target']) if c.get('target') is not None else '미설정'
+def atv_str(c): return f"{c['ach_vs_target']}%" if c.get('ach_vs_target') is not None else '—'
+def cap_str(c): return str(c['capacity']) if c.get('capacity') is not None else '미설정'
+def comp_str(c): return f"{c['competition']}:1" if c.get('competition') is not None else '—'
+
 # 캠프 요약 표
 funnel_rows = "\n".join(
-    f"| {c['name']} | {c['target']} | {c['시작']} | {c['지원중']} | {c['완료']} | {c['ach_vs_start']}% | {c['ach_vs_target']}% | {c['nbc_rate']}% |"
+    f"| {c['name']} | {tgt_str(c)} | {cap_str(c)} | {c['시작']} | {c['지원중']} | {c['완료']} | {c['ach_vs_start']}% | {atv_str(c)} | {comp_str(c)} | {c['nbc_rate']}% |"
     for c in camps)
 # 연령×내배카, 상태1×내배카 핵심 표 (캠프별)
 def md_cast(c):
@@ -850,7 +1056,7 @@ def strip_tags(s):
     import re as _re
     return _re.sub(r'<[^>]+>','',s)
 comments_md = "\n\n".join(
-    f"**{c['name']}** (목표 {c['target']} · 달성율 {c['ach_vs_target']}%)\n\n" +
+    f"**{c['name']}** (목표 {tgt_str(c)} · 달성율 {atv_str(c)})\n\n" +
     "\n".join(f"{j+1}. {strip_tags(x)}" for j,x in enumerate(build_comments(c)))
     for c in camps)
 
@@ -870,8 +1076,36 @@ if has_trend:
 else:
     trend_md = "## 📊 전일 대비 경향성\n\n직전 리포트가 없어 비교를 생략합니다.\n"
 
+# 모집 마감 전망 (MD)
+_pmrows, _pmdiag = [], []
+for c in camps:
+    pj = c.get('proj')
+    if not pj:
+        _pmrows.append(f"| {c['name']} | 미설정 | — | — | — | — | — | — |")
+        continue
+    proj_disp = f"{pj['projected']} ({pj['proj_tpct']}%)" if pj.get('proj_tpct') is not None else f"{pj['projected']}"
+    early = " ⚠️초기" if pj['early'] else ""
+    _pmrows.append(f"| {c['name']} | {pj['start']}~{pj['end']} | D-{pj['days_left']} | {pj['time_pct']}% | {c['완료']}/{c['target'] if c.get('target') else '—'} | {pj['pace']} | {proj_disp}{early} | {pj['label']} |")
+    if pj['tier'] == 'done':
+        _pmdiag.append(f"- **{c['name']}**: 목표 모객({c['target']}명) 초과 달성 · 마감 D-{pj['days_left']} — 선발·등록 전환·정원 적합도로 전환.")
+    elif c.get('target'):
+        cav = " (모집 7일 미만, 신뢰도 낮음)" if pj['early'] else ""
+        _pmdiag.append(f"- **{c['name']}**: 최근 {pj['pace']}명/일 → 마감 예상 {pj['projected']}명(목표 {c['target']} 대비 {pj['proj_tpct']}%) → **{pj['label']}**{cav}.")
+proj_md = ("## 📅 모집 마감 전망 (트렌드 × 종결일)\n\n"
+           "| 캠프 | 모집기간 | 마감 | 경과 | 완료/목표 | 페이스(명/일) | 예상도달(목표대비) | 전망 |\n"
+           "|---|---|---|---|---|---|---|---|\n" + "\n".join(_pmrows) + "\n\n" + "\n".join(_pmdiag) + "\n")
+
 with open(__file__, 'r', encoding='utf-8') as fp:
     py_src = fp.read()
+
+# 인터랙티브(HTML) 안내 블록 — MD_ONLY일 땐 HTML이 없으므로 생략
+if MD_ONLY:
+    interactive_block = "> [!note] 이 노트는 MD 단독 출력본입니다. 인터랙티브 HTML 대시보드는 생성하지 않았습니다 (필요 시 `python generate_daily_report.py`로 재생성)."
+else:
+    interactive_block = (f"## 🔗 리포트 열기 (인터랙티브)\n\n"
+                         f"[▶ {html_name} 브라우저로 열기]({html_name})\n\n"
+                         f'<iframe src="{html_name}" width="100%" height="900" style="border:1px solid #2a2f3a;border-radius:10px;"></iframe>\n\n'
+                         f"> [!tip] iframe이 비어 보이면 옵시디언 설정 또는 보안정책 때문일 수 있습니다. 위 링크로 직접 열면 항상 동작합니다.")
 
 md = f"""---
 title: KDT 모객현황 데일리 리포트 {yymmdd}
@@ -885,25 +1119,19 @@ status: TEST
 # 📊 KDT 모객현황 데일리 리포트 · {date_str}
 
 > [!info] 대상 캠프 {len(camps)}종 · 내부직원·테스트 제외 · **TEST 출력본**
-> 인터랙티브 대시보드(탭·차트·박스플롯)는 아래 HTML에서 확인하세요.
 
-## 🔗 리포트 열기 (인터랙티브)
-
-[▶ {html_name} 브라우저로 열기]({html_name})
-
-<iframe src="{html_name}" width="100%" height="900" style="border:1px solid #2a2f3a;border-radius:10px;"></iframe>
-
-> [!tip] iframe이 비어 보이면 옵시디언 설정 또는 보안정책 때문일 수 있습니다. 위 링크로 직접 열면 항상 동작합니다.
+{interactive_block}
 
 ## 📈 핵심 요약
 
-| 캠프 | 목표완료 | 지원시작 | 지원중 | 지원완료 | 완료달성율<br>(완료/시작) | 목표달성율<br>(완료/목표) | 내배카 보유율 |
-|---|---|---|---|---|---|---|---|
+| 캠프 | 목표모객 | 수강정원 | 지원시작 | 지원중 | 지원완료 | 완료달성율<br>(완료/시작) | 목표달성율<br>(완료/목표) | 경쟁률<br>(지원/정원) | 내배카 보유율 |
+|---|---|---|---|---|---|---|---|---|---|
 {funnel_rows}
 
 - **총 지원시작** {tot_start} · **완료** {tot_comp} (평균 전환 {avg_conv}%) · **미완료 적체** {tot_ing} ({round(tot_ing/tot_start*100)}%)
 - **내배카 보유율** {nbc_rate_all}% (유효응답 {tot_nbc_t}명)
 
+{proj_md}
 {trend_md}
 ## 🧐 부트캠프별 점검 코멘트 (비판적 점검 포인트)
 
@@ -940,18 +1168,19 @@ status: TEST
 *생성 {DATA['generated']} · 내배카 비율은 yes/no 유효응답(지원완료·지원중) 기준 · 상태1 공란은 '알 수 없음' 처리*
 """
 
-# ---------- 이중 출력: 레포 reports/ + Obsidian 폴더 ----------
+# ---------- 출력: OUT_DIRS 각 폴더에 (MD_ONLY면 MD만) ----------
 for d in OUT_DIRS:
-    hp = os.path.join(d, f"{yymmdd}_daily-report.html")
     mp = os.path.join(d, f"{yymmdd}_daily-report.md")
-    with open(hp, 'w', encoding='utf-8') as fp:
-        fp.write(HTML)
+    if not MD_ONLY:
+        hp = os.path.join(d, f"{yymmdd}_daily-report.html")
+        with open(hp, 'w', encoding='utf-8') as fp:
+            fp.write(HTML)
+        print("WROTE", hp)
     with open(mp, 'w', encoding='utf-8') as fp:
         fp.write(md)
-    print("WROTE", hp)
     print("WROTE", mp)
 
 ```
 
 ---
-*생성 2026-06-16 16:00 · 내배카 비율은 yes/no 유효응답(지원완료·지원중) 기준 · 상태1 공란은 '알 수 없음' 처리*
+*생성 2026-06-17 13:50 · 내배카 비율은 yes/no 유효응답(지원완료·지원중) 기준 · 상태1 공란은 '알 수 없음' 처리*
